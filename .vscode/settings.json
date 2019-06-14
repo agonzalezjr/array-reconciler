@@ -1,0 +1,16 @@
+{
+  "mocha.files.glob": "dist/test/**/*.js",
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.provideLintTask": true,
+  "eslint.validate": [
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.formatOnSave": false
+  }
+}
