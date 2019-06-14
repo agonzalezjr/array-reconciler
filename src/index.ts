@@ -1,6 +1,6 @@
-import { Adder } from './Adder';
-import chalk from 'chalk';
+import { Reconciler } from './Reconciler';
 
-console.log(`${chalk.blue('Hello world!')} I am debuggable in VSCode`);
+const l1 = [5, 3, 4];
+const l2 = [6, 4, 3, 10];
 
-console.log(`I can add 5 + 3 = ${Adder.add(5, 3)}!`);
+console.log(Reconciler.reconcile(l1, l2));
