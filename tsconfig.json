@@ -4,6 +4,7 @@
     "module": "commonjs",
     "sourceMap": true,
     "watch": false,
-    "outDir": "dist"
+    "outDir": "dist",
+    "esModuleInterop": true
   }
 }
