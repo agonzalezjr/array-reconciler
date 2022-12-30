@@ -31,7 +31,7 @@
     "@types/node": "^12.0.4",
     "chai": "^4.2.0",
     "karma-nyan-reporter": "^0.2.5",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "mochawesome": "^4.0.0"
   }
 }
